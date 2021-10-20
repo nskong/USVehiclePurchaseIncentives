@@ -3,6 +3,8 @@ This folder is for monetary Plug-in Electric Vehicle (PEV) purchase incentives a
 This does not include incentives that have no monetary value, such as High Occupancy Vehicle (HOV) Lane Access. 
 Additionally, this only considers light-duty passenger vehicles.
 
+**We currently only have incentives for California. Please contribute if this project will be helpful to you!**
+
 ### Data Structure
 
 Because the monetary dollar amount someone receives from a purchase incentive is variable on a number of factors, one incentive may have a number of various representations. 
