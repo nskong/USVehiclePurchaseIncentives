@@ -1,0 +1,24 @@
+{ 
+	"name": "Alternative Fuel Vehicle (AFV) Incentives - San Joaquin Valley",
+	"id": 3,
+	"region": "CA",
+    "zipcode": [
+        "San Joaquin Valley"
+    ],
+	"vehicleTypes": [
+        "BEV", "HEV", "NGV"
+	],
+	"purchaseType": [
+        "new"
+	],
+    "incentiveType": "grant",
+	"dollarAmount": 20000,
+    "fleet": true,
+    "trade-in": false,
+	"url": "http://valleyair.org/grants/content/publicbenefit.html",
+	"description": "The San Joaquin Valley Air Pollution Control District administers the Public Benefit Grant Program, which provides funding to cities, counties, special districts (such as water districts and irrigation districts), and public educational institutions for the purchase of new AFVs, including electric, hybrid electric, natural gas, and propane vehicles. The maximum grant amount allowed per vehicle is $20,000, with a limit of $100,000 per agency per year. Projects are considered on a first-come, first-serve basis. For more information, see the Public Benefit Grant Program website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

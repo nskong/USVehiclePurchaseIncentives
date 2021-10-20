@@ -1,0 +1,24 @@
+{ 
+	"name": "Plug-in Electric Vehicle (PEV) Rebates for Fleet Vehicles (SMUD)",
+	"id": 15,
+	"region": "CA",
+    "zipcode": [
+        "SMUD"
+    ],
+	"vehicleTypes": [
+        "PHEV", "EV"
+	],
+	"purchaseType": [
+        "new"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 750,
+    "trade-in": false,
+    "fleet": true,
+	"url": "https://www.smud.org/en/Going-Green/Electric-Vehicles/Business#d516cde3-45a5-42f2-9d6e-0235da3ca8fe-9f57022f-fa9c-4c0f-b346-f35b01afec56",
+	"description": "Sacramento Municipal Utility District (SMUD) offers rebates to businesses for the purchase of new commercial light-, medium-, and heavy-duty PEVs. Additional terms and conditions apply. For more information, including how to apply, see the SMUD Business Electric Vehicle website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

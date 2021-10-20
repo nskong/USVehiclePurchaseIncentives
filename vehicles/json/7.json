@@ -1,0 +1,32 @@
+{ 
+	"name": "Voluntary Vehicle Retirement Incentives - San Joaquin Valley and South Coast",
+	"id": 4,
+    "subId": 3,
+	"region": "CA",
+    "zipcode": [
+        "San Joaquin Valley", "South Coast Air Quality Management District"
+    ],
+	"vehicleTypes": [
+        "HEV"
+	],
+	"purchaseType": [
+        "new"
+	],
+    "trade-in": true,
+    "incentiveType": "grant",
+	"dollarAmount": 4500,
+    "fpl": { 
+        "minimum": 2.25,
+        "maximum": 2.99
+    },
+    "fuelEconomy": { 
+        "minimum": 35
+    },
+    "fleet": false,
+	"url": "https://www.valleyair.org/drivecleaninthesanjoaquin/replace/",
+	"description": "The San Joaquin Valley Air Pollution Control District and the South Coast Air Quality Management District administer the Enhanced Fleet Modernization Program (EFMP) Pilot Retire and Replace program, providing incentives to replace a vehicle eligible for retirement with a more fuel-efficient vehicle. Used vehicles must be no more than eight years old and applicants must live in the San Joaquin Valley or South Coast air basins. Eligible replacement vehicles must meet a minimum fuel economy average by model year or average at least 35 miles per gallon (mpg). Alternative fuel vehicles are also eligible, including plug-in hybrid electric vehicles (PHEV) and zero emission vehicles (ZEVs). Funding for alternative transportation mobility options, such as public transportation or car sharing, is also available in lieu of purchasing another vehicle. The incentive amounts vary by income level as compared to the Federal Poverty Level (FPL) and replacement vehicle type. Residents living in qualified disadvantaged communities may be eligible for higher incentive amounts and, for residents replacing their vehicles with a PHEV or ZEV, a rebate of up to $2,000 for the purchase of electric vehicle supply equipment. For more information, including eligible vehicles and applicable requirements, see the California Air Resources Board EFMP website. (Reference California Health and Safety Code 44062.3 and 44125).",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

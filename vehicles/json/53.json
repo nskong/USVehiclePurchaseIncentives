@@ -1,0 +1,25 @@
+{ 
+	"name": "The Bereau of Automotive Repair's (BAR) Consumer Assistance Program (CAP)",
+	"id": 6,
+    "subId": 2,
+	"region": "CA",
+	"vehicleTypes": [
+        "ICEV", "BEV", "PHEV", "HEV", "NGV", "FCV"
+	],
+	"purchaseType": [
+        "new"
+	],
+    "incentiveType": "tax exemption",
+	"dollarAmount": 1000,
+    "fpl": { 
+        "minimum": 2.26
+    },
+    "trade-in": true,
+    "fleet": false,
+	"url": "https://www.bar.ca.gov/Consumer/Consumer_Assistance_Program/CAP_Vehicle_Retirement_Program",
+	"description": "Through the California Bureau of Automotive Repair's (Bureau) Consumer Assistance Program (CAP), the owner of a personal motor vehicle may receive $1,000 to retire the vehicle early from operation and purchase a replacement vehicle that meets emission fuel economy and model year requirements. Applicants must provide proof of a failed smog test and may retire up to two vehicles annually. Low-income eligible applicants may receive $1,500 to retire the vehicle and must provide proof of a completed smog test, pass or fail. An eligible vehicle must be registered in the state without substantial lapse for at least two years prior to retirement. The owner must retire the vehicle at a dismantler under contract with the Bureau. The Bureau also offers financial assistance of up to $1,200 toward emissions-related repairs for vehicles remaining in service that cannot pass the biennial smog check inspection. For more information, additional eligibility requirements, eligible replacement vehicles, and application materials, see the CAP website. (Reference California Health and Safety Code 44062.3 and 44125).",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

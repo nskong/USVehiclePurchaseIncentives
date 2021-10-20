@@ -1,0 +1,27 @@
+{ 
+	"name": "Plug-in Electric Vehicle Rebate - Pasadena Water and Power (PWP)",
+	"id": 9,
+    "subId": 1,
+	"region": "CA",
+    "zipcode": [
+        "PWP"
+    ],
+	"vehicleTypes": [
+        "EV", "PHEV"
+	],
+	"purchaseType": [
+        "new", "lease"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 500,
+    "fpl": { 
+        "minimum": 1 
+    },
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://ww5.cityofpasadena.net/water-and-power/residentialevrebate/",
+	"description": "PWP provides rebates of $250 to residential customers who purchase or lease an eligible new or used PEV. An additional $250 is available for eligible PEVs purchased or leased from a Pasadena dealership. Customers participating in PWP's income-qualifying programs may also qualify for an additional $1,000 rebate, for a total of $$1,500. Rebates are available for PEVs purchased or leased on or after August 1, 2018. Additional terms and conditions apply. For more information, see the PWP Residential Electric Vehicle and Charger Incentive Program website.",
+    "date": { 
+        "start": "8/1/18"
+    }
+}

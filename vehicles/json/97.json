@@ -1,0 +1,29 @@
+{ 
+	"name": "Used Plug-in Electric Vehicle (PEV) Rebate Program - LADWP",
+	"id": 14,
+    "subId": 4,
+	"region": "CA",
+    "zipcode": [
+        "LADWP"
+    ],
+	"vehicleTypes": [
+        "PHEV", "EV"
+	],
+	"purchaseType": [
+        "used"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 1500,
+	"year": { 
+        "minimum": 2016,
+		"maximum": 2022 
+	},
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://www.ladwp.com/ladwp/faces/ladwp/residential/r-gogreen/r-gg-driveelectric?_adf.ctrl-state=1d4357epvd_4&_afrLoop=472125629767806/",
+	"description": "The Los Angeles Department of Water and Power (LADWP) offers rebates up to $1,500 to residential electric customers for the purchase of eligible used PEVs. Additional terms and conditions apply. For program guidelines and application materials, see the Charge Up L.A.! website.",
+    "date": { 
+        "start": "1/1/2024",
+        "end": "12/31/2024"
+    }
+}

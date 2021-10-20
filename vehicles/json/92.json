@@ -1,0 +1,29 @@
+{ 
+	"name": "All-Electric Vehicle (EV) Rebate MCE",
+	"id": 13,
+    "subId": 7,
+	"region": "CA",
+    "zipcode": [
+        "MCE"
+    ],
+	"vehicleTypes": [
+        "EV"
+	],
+	"purchaseType": [
+        "new", "lease"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 3500,
+    "income": { 
+        "maximum": 158560
+    },
+    "householdSize": 7,
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://www.mcecleanenergy.org/ev-drivers/",
+	"description": "The MCEv Program offers a $3,500 rebate for the purchase or lease of a new EV for income-qualifying customers. To be eligible for the rebate, an applicant must live in MCE’s service area, be a MCE customer, and meet at least one of the qualifying income requirements. For more information, including how to apply, see the MCE MCEv Rebates website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

@@ -1,0 +1,28 @@
+{ 
+	"name": "Fuel Cell Motor Vehicle Tax Credit",
+    "id": 2,
+	"subId": 2,
+	"region": "Federal",
+	"vehicleTypes": [
+		"FCV"
+	],
+	"purchaseType": [
+		"new"
+	],
+    "incentiveType": "tax incentive",
+	"dollarAmount": 8000,
+    "year": { 
+		"minimum": -1,
+        "maximum": 2009
+    },
+	"weight": { 
+		"minimum": 0,
+		"maximum": 8500
+	},
+	"url": "https://www.irs.gov/pub/irs-drop/n-08-33.pdf",
+	"description": "A tax credit of up to $8,000 is available for the purchase of qualified light-duty fuel cell vehicles, depending on the vehicle's fuel economy. Tax credits are also available for medium- and heavy-duty fuel cell vehicles; credit amounts are based on vehicle weight. Vehicle manufacturers must follow the procedures as published in Notice 2008-33 (PDF)to certify to the Internal Revenue Service (IRS) that a vehicle meets certain requirements to claim the fuel cell vehicle credit. Notice 2008-33 also provides guidance to taxpayers about claiming the credit. For more information about claiming the credit, see IRS Form 8910, which is available on the IRS Forms and Publications website. (Reference Public Law 116-260, Public Law 116-94, Public Law 115-123, Public Law 114-113, and 26 U.S. Code 30B)",
+    "date": { 
+        "start": "01/01/2018",
+        "end": "12/31/2021"
+    }
+}

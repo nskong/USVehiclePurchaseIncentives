@@ -1,0 +1,24 @@
+{ 
+	"name": "California Clean Fuel Reward",
+	"id": 8,
+    "subId": 2,
+	"region": "CA",
+	"vehicleTypes": [
+        "PHEV", "EV"
+	],
+	"purchaseType": [
+        "new", "lease"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 750,
+    "batteryCapacity": {
+        "minimum": 5
+    },
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://www.cleanfuelreward.com/",
+	"description": "The California Clean Fuel Reward is available to anyone who buys or leases a new electric vehicle with a battery capacity greater than 5 kWh from a participating automotive retailer. The customer must register the vehicle in California and the customer must reside in California. This instant EV reward is offered on a sliding scale, depending on vehicle battery size.",
+    "date": { 
+        "start": "11/2"
+    }
+}

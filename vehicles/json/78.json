@@ -1,0 +1,24 @@
+{ 
+	"name": "Clean Vehicle Rebate - El Dorado County",
+	"id": 11,
+	"region": "CA",
+    "zipcode": [
+        "EDCAQMD"
+    ],
+	"vehicleTypes": [
+        "PHEV", "EV", "FCV"
+	],
+	"purchaseType": [
+        "new", "lease"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 599,
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://www.edcgov.us/Government/AirQualityManagement/Pages/grants_and_incentive_refunds.aspx",
+	"description": "The El Dorado County Air Quality Management District (EDC AQMD) offers rebates of up to $599 to residents toward the purchase or lease of a new zero emission vehicle (ZEV) or partial-ZEV, as defined by the California Air Resources Board. To qualify, vehicles must be owned or leased for at least three years within El Dorado County. For more information, see the EDC AQMD Grants and Incentives website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

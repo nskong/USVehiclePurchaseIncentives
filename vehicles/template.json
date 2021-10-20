@@ -1,0 +1,53 @@
+{ 
+	"name": "",
+	"id": -1,
+    "subId": -1,
+	"region": "",
+    "zipcode": [
+
+    ],
+	"vehicleTypes": [
+	],
+	"purchaseType": [
+	],
+    "incentiveType": "",
+	"dollarAmount": -1,
+    "income": { 
+        "minimum": -1,
+        "maximum": -1
+    },
+    "marriageStatus": [],
+    "batteryCapacity": {
+        "minimum": -1,
+		"maximum": -1 
+    },
+    "fpl": { 
+        "minimum": -1,
+        "maximum": -1
+    },
+    "range": {
+        "minimum": -1,
+		"maximum": -1
+    },
+	"year": { 
+        "minimum": -1,
+		"maximum": -1
+	},
+	"weight": { 
+		"minimum": -1,
+		"maximum": -1 
+	},
+    "fuelEconomy": { 
+        "minimum": -1,
+        "maximum": -1
+    },
+    "householdSize": -1,
+    "trade-in": false,
+    "fleet": false,
+	"url": "",
+	"description": "",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

@@ -1,0 +1,24 @@
+{ 
+	"name": "California Clean Fuel Reward",
+	"id": 17,
+	"region": "CA",
+	"vehicleTypes": [
+        "BEV", "PHEV"
+	],
+	"purchaseType": [
+        "new", "lease"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 1500,
+    "batteryCapacity": {
+        "minimum": 5
+    },
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://www.cleanfuelreward.com/",
+	"description": "The California Air Resources Board offers point-of-sale rebates of up to $1,500 for the purchase or lease of a new all-electric or plug-in hybrid electric vehicle through the Clean Fuel Reward Program. Eligible EVs must have a minimum battery capacity of 5 kilowatt-hours and be purchased from participating retailers. Eligible customers must reside in California and register the EV in California. For more information, including vehicle eligibility requirements, see the Clean Fuel Reward website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

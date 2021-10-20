@@ -1,0 +1,27 @@
+{ 
+	"name": "Commercial Plug-in Electric Vehicle (PEV) Rebates - TID",
+	"id": 19,
+	"region": "CA",
+    "zipcode": [
+        "TID"
+    ],
+	"vehicleTypes": [
+        "BEV", "PHEV"
+	],
+	"purchaseType": [
+        "new", "lease", "used"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 500,
+	"weight": { 
+		"maximum": 10000 
+	},
+    "trade-in": false,
+    "fleet": true,
+	"url": "https://www.tid.org/customer-service/save-energy-money/commercial-electric-vehicle/",
+	"description": "Turlock Irrigation District (TID) offers commercial customers a rebate for the purchase or lease of a qualifying new or used PEV. Customers may also be eligible for a $1,000 rebate per Level 2 EVSE. Up to ten rebates may be claimed for PEVs and EVSE per commercial account, respectively. For more information, including vehicle category details and eligibility requirements, see the TID Commercial Electric Vehicles Rebates website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

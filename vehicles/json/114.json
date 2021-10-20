@@ -1,0 +1,29 @@
+{ 
+	"name": "Plug-in Electric (PEV) Rebates - TID",
+	"id": 18,
+    "subId": 11,
+	"region": "CA",
+    "zipcode": [
+        "TID"
+    ],
+	"vehicleTypes": [
+        "BEV", "PHEV"
+	],
+	"purchaseType": [
+        "new", "lease", "used"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 500,
+    "income": { 
+        "minimum": 61816
+    },
+    "householdSize": 6,
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://www.tid.org/customer-service/save-energy-money/electric-vehicles/",
+	"description": "Turlock Irrigation District (TID) offers residential customers a $500 rebate for the purchase or lease of a qualifying new or used PEV. Customers may also be eligible for a $300 rebate for the installation of a qualifying Level 2 EVSE. Low-income customers enrolled in the TID CARES Program are eligible for additional rebates of $700 per vehicle and $100 per charger. For more information, including eligibility requirements, see the TID Residential Electric Vehicle Rebates and CARES Program website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

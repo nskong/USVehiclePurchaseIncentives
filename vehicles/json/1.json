@@ -1,0 +1,34 @@
+{ 
+	"name": "Plug-in Hybrid and Zero Emission Light Duty Vehicle Rebates",
+	"region": "CA",
+	"zipcode": "",
+	"vehicleTypes": [
+		"FCV", "EV", "PHEV"
+	],
+	"purchaseType": [
+		"new"
+	],
+	"maximumDollar": "4500",
+	"income": { 
+		"minimum": 0,
+		"maximum": 4500 
+	},
+	"marriageStatus": [
+		"single"
+	],
+	"batteryCapacity": { 
+		"minimum": -1,
+		"maximum": -1
+	},
+	"weight": { 
+		"minimum": -1,
+		"maximum": -1
+	},
+	"range": {
+		"minimum": -1,
+		"maximum": -1
+	},
+	"fleet": false,
+	"url": "",
+	"notes": ""
+}

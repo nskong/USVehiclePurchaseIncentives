@@ -1,0 +1,30 @@
+{ 
+	"name": "Plug-in Electric Vehicle (PEV) and Fuel Cell Electric Vehicle (FCEV) Grant - Bay Area",
+	"id": 5,
+    "subId": 19,
+	"region": "CA",
+    "zipcode": [
+        "BAAQMD"
+    ],
+	"vehicleTypes": [
+        "PHEV", "EV", "FCV"
+	],
+	"purchaseType": [
+        "new", "lease"
+	],
+    "incentiveType": "grant",
+	"dollarAmount": 5500,
+    "income": { 
+        "minimum": 120361,
+        "maximum": 160480
+    },
+    "householdSize": 7,
+    "trade-in": true,
+    "fleet": false,
+	"url": "https://www.baaqmd.gov/funding-and-incentives/residents/clean-cars-for-all",
+	"description": " The Bay Area Air Quality Management District’s (BAAQMD) Clean Cars for All program offers grants up to $9,500 to income-eligible residents to replace a vehicle eligible for retirement with a PEV or FCEV. Eligible vehicles for replacement should have a model year 15 years or older than the current year. Recipients may buy or lease a new or used PEV or FCEV. Grants vary depending on the household income and vehicle technology. Vehicles that are replaced must be turned in at an authorized dismantler. Individuals that purchase an all-electric vehicle are eligible to receive up to $2,000 for the purchase and installation of a Level 2 electric vehicle supply equipment. For more information, including additional eligibility requirements and how to apply, see the BAAQMD Clean Cars for All website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

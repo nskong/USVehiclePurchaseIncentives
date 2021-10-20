@@ -1,0 +1,28 @@
+{ 
+	"name": "California Clean Fuel Reward - Antelope Valley",
+	"id": 10,
+    "subId": 2,
+	"region": "CA",
+    "zipcode": [
+        "AVAQMD"
+    ],
+	"vehicleTypes": [
+        "PHEV", "EV"
+	],
+	"purchaseType": [
+        "new", "lease"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 1500,
+    "fpl": { 
+        "minimum": 1
+    },
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://avaqmd.ca.gov/alternative-fuel-vehicle-program/",
+	"description": "The Antelope Valley Air Quality Management District (AVAQMD) offers rebates of up to $1,000 to residents toward the purchase or lease of a new all-electric or plug-in hybrid electric vehicle. Additional rebates of up to $1,500 are available for income-eligible residents and rebates of up to $500 for PEVs purchased or leased outside of Antelope Valley. PEVs purchased or leased outside of the AVAQMD jurisdiction are eligible for half of the rebate amount. For more information, including how to apply, see the AVAQMD website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

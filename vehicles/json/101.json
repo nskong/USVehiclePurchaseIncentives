@@ -1,0 +1,28 @@
+{ 
+	"name": "Plug-in Electric Vehicle (PEV) Rebate - Burbank Water and Power (BWP)",
+	"id": 16,
+    "subId": 3,
+	"region": "CA",
+    "zipcode": [
+        "BWP"
+    ],
+	"vehicleTypes": [
+        "PHEV", "EV"
+	],
+	"purchaseType": [
+        "used"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 1000,
+	"year": { 
+		"maximum": "2021"
+	},
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://www.burbankwaterandpower.com/conservation/used-ev-rebate/",
+	"description": "BWP offers residential customers a rebate of up to $1,000 for the purchase of a pre-owned PEV. For more information, see the BWP Used Electric Vehicle Rebate website.",
+    "date": { 
+        "start": "1/1/2023",
+        "end": "12/31/2023"
+    }
+}

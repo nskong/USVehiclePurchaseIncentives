@@ -1,0 +1,32 @@
+{ 
+	"name": "Used Plug-in Hybrid Electric Vehicle (PHEV) Incentive - Peninsula Clean Energy (PCE)",
+	"id": 12,
+    "subId": 3,
+	"region": "CA",
+    "zipcode": [
+        "PCE"
+    ],
+	"vehicleTypes": [
+        "PHEV"
+	],
+	"purchaseType": [
+        "used"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 4000,
+    "income": { 
+        "maximum": 87840
+    },
+    "range": {
+        "minimum": 25
+    },
+    "householdSize": 3,
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://www.peninsulacleanenergy.com/usedev/",
+	"description": "PCE and Peninsula Family Service (PFS) offer $4,000 to qualified San Mateo County residents to be used as a down payment for the purchase of a used PHEV. To be eligible, San Mateo County residents must meet maximum annual income requirements, be able to charge the PHEV at home or work, and qualify for a PFS vehicle loan. Additional terms and conditions apply. For more information, see the DriveForward Electric website.",
+    "date": { 
+        "start": "",
+        "end": ""
+    }
+}

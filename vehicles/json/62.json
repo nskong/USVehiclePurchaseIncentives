@@ -1,0 +1,31 @@
+{ 
+	"name": "Clean Vehicle Rebate Project (CVRP)",
+	"id": 7,
+    "subId": 8,
+	"region": "CA",
+	"vehicleTypes": [
+        "BEV"
+	],
+	"purchaseType": [
+        "new", "lease"
+	],
+    "incentiveType": "rebates",
+	"dollarAmount": 2000,
+    "income": { 
+        "maximum": 204000 
+    },
+    "marriageStatus": [
+        "head of household"
+    ],
+    "fpl": { 
+        "minimum": 4.01 
+    },
+    "trade-in": false,
+    "fleet": false,
+	"url": "https://cleanvehiclerebate.org/eng/rebatenow",
+    "description": "The Clean Vehicle Rebate Project (CVRP) offers rebates to eligible state and local public entities for the purchase of qualified light-duty fleet vehicles. Public fleets located in disadvantaged communities are eligible for increased incentives. Eligible vehicles must be certified by the California Air Resources Board (ARB). Rebates are available on a first-come, first-served basis. Manufacturers must apply to ARB to have their vehicles considered for rebate eligibility. Each entity may receive up to 30 rebates annually and cannot receive CVRP incentives for the same vehicle. For more information, including a list of eligible vehicles, locations, and entities, see the For Public Fleets website. (Reference California Health and Safety Code 44274 and 44258).",
+    "date": { 
+        "start": "",
+        "end": "12/31/2023"
+    }
+}
