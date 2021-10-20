@@ -3,9 +3,8 @@
 Information about monetary vehicle purchase incentives across the United States.
 This *does not* include incentives that have no monetary value, such as High Occupancy Vehicle (HOV) Lane Access. 
 
-This was created for the [Electric Vehicle Explorer](https://gis.its.ucdavis.edu/evexplorer2/) website. 
-Please check it out!
-It's a comprehensive vehicle cost calculator including information about emissions, operating costs, incentives, and more!
+This information was gatehered for the [Electric Vehicle Explorer](https://gis.its.ucdavis.edu/evexplorer2/) website. 
+Check it out! It's a comprehensive vehicle cost calculator including information about emissions, operating costs, incentives, and more
 
 All information has been gathered using the [Alternative Fuels Data Center](https://afdc.energy.gov/laws) website.
 
