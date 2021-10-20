@@ -1,59 +1,38 @@
-# Overview
+This folder is for monetary Plug-in Electric Vehicle (PEV) purchase incentives across the United States. 
 
-TODO: overview
+This does not include incentives that have no monetary value, such as High Occupancy Vehicle (HOV) Lane Access. 
+Additionally, this only considers light-duty passenger vehicles.
 
-These are incentives only for vehicles and only associated with a monetary value. 
-This database also only considers light-duty vehicles. That includes passenger vehicles. 
+### Data Structure
 
-### Examples 
+Because the monetary dollar amount someone receives from a purchase incentive is variable on a number of factors, one incentive may have a number of various representations. 
 
-TODO: fix examples
-**Good example of an valid incentive for this database: ** The federal electric vehicle tax credit
-**Bad example of an incentive:** The California HOV law is a state incentive, but does not have a monetary value associated with purchasing a vehicle. 
+For example, the California [Clean Vehicle Rebate Project (CVRP)](https://cleanvehiclerebate.org/) (*numbers 54-71*) has 18 different monetary values, based on income, marriage status, vehicle type, and household size.
 
-# Duplicates
+### Data Schema
 
-While incentives are number staring from 1, each incentive has it's own id. 
-This is due to the fact one incentives will have a different dollar value depending on it's variables.
-The same incentive will be represented in multiple forms with different subIds.
+An asterisk indicates the field is optional. Optional fields will only appear if the incentive has a requirement for that field.
 
-For example, TODO:
-
-### Json
-
-Single incentives are represented with an underscore. 
-Their first number indicates the incentive id, and the second number indicates the sub-id, the id nested under the current id
-
-### Tsv
-
-TODO:
-
-# Incentive Structure
-
-An asterisk* indicates the field is . Optional fields will only appear if the incentive has a requirement for that field.
-TODO: need baseAmount?
-TODO: Zipcode mappings
-
-* **name*: Name of the incentive.
-* **id*: Numbered id of the incentive according to this database. Ids increase from 1 and on.
-* subid: TODO:
-* **region*: Area the incentive is applicable in. 'Federal' if the incentive is at federal level and available at all states, otherwise uses the two letter state code of the state.
-* *zipcode*: If the incentive is only available in certain zip codes, this field is a string of the representation of the zipcodes the incentive is available in. For example, a utility company covers a certain number of zipcodes, so if the incentive was available through PG&E, this field would be 'pg&e'.
-* **vehicleTypes*: Vehicles types of the vehicle being bought. Possible values are 'FCV', 'ICEV', 'PHEV', 'BEV', 'HEV', 'NGV'. Look up the acronyms if don't know what they are.
-* **purchaseTypes*: How the vehicle being purchased is being bought. Possible values are 'new', 'used'
-* **incentiveType*: Type of the incentive. These match the afdc purchase type. Possible values are 'grants', 'tax incentives', 'loans and leases', 'rebates', 'exemptions', and 'other'.
-* **dollarAmount*: Dollar amount of the incentive
-* *income:*
-* *fpl*: Federal Poverty Level. This is a percentage. TODO:
-* *fuelEconomy* 
-* *marriageStatus:* Options are "head of household," "single," "married independent," "married single,"  and "widower"
-* *batteryCapacity:* Unit in kWh
-* *weight:* in pounds, usually in GWVR
-* *range:* in miles, has minimum and maximum
-* *householdSize:* The maximum is 8. We don't go above becuase many incentives have variable amounts after 8 household members.
-* *year:*
-* **fleet:*
-* **trade-in*:
-* **url*:
-* **Description*:
-* **Date*: Includes start and end date of each. Empty strings mean we don't know the dates.
+* *name*: Name of the incentive.
+* *id*: Numbered id of the incentive according to this database. Ids increase starting at 1.
+* **subid*: Number of this representation of id. 
+* *region*: Area the incentive is applicable in. "Federal" if the incentive is at federal level and available at all states, otherwise uses the two letter state code of the state.
+* **zipcode*: A list of strings. If the incentive is only available in certain zip codes, this field is a string of the representation of the zipcodes the incentive is available in. For example, a utility company covers a certain number of zipcodes, so if the incentive was available through PG&E, this field would be "PG&E".
+* *vehicleTypes*: Vehicles types of the vehicle being bought. Possible values are "FCV", "ICEV", "PHEV", "BEV", "HEV". Look up the acronyms if don't know what they are.
+* *purchaseTypes*: How the vehicle being purchased is being bought. Possible values are "new", "used", "lease."
+* *incentiveType*: Type of the incentive. These match the AFDC website purchase type. Possible values are "grants", "tax incentives", "loans and leases", "rebates", "exemptions", and "other".
+* *dollarAmount*: US Dollar amount of the incentive.
+* **income:* An object with fields \*minimum and \*maximum that represent the ranges of income to be eligible. Units are in USD.
+* **fpl*: Federal Poverty Level. An object with fields \*minimum and \*maximum that represent the ranges of the federal povery level to be eligible. Units are in percentages. There are APIs to calculate the federal poverty level based on location.
+* **fuelEconomy* An object with fields \*minimum and \*maximum that represent the ranges of fuel economy to be eligible. Units are in Miles per Gallon.
+* **marriageStatus:* Options are "head of household," "single," "married independent," "married single,"  and "widower."
+* **batteryCapacity:*  An object with fields \*minimum and \*maximum that represent the ranges of battery capacity to be eligible. Units in kWh.
+* **weight:*  An object with fields \*minimum and \*maximum that represent the ranges of income to be eligible. Units are in pounds, usually as the Gross Vehicle Weight Rating (GVWR).
+* **range:*  An object with fields \*minimum and \*maximum that represent the ranges of range to be eligible. Units are in miles.
+* **householdSize:* The maximum is 8. We don't go above becuase many incentives have variable amounts after 8 household members.
+* **year:*  An object with fields \*minimum and \*maximum that represent the ranges of years to be eligible. 
+* *fleet:* Boolean. true if the incentive is only for a fleet, false if the vehicle is for private consumers.
+* *trade-in*: Boolean. true if the incentive is for trading in an old clunker, false otherwise.
+* *url*: URL for the website of the incentive.
+* *description*: Description of the incentive according to the AFDC website. 
+* *Date*: Includes start and end date of each. Empty strings mean we don't know the dates.
