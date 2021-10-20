@@ -1,6 +1,6 @@
 # README.md
 
-Records for monetary vehicle purchase incentives across the United States.
+Information about monetary vehicle purchase incentives across the United States.
 This *does not* include incentives that have no monetary value, such as High Occupancy Vehicle (HOV) Lane Access. 
 
 This was created for the [Electric Vehicle Explorer](https://gis.its.ucdavis.edu/evexplorer2/) website. 
